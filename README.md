@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Country List App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React web application that displays a list of countries using GraphQL to fetch data from the "https://countries.trevorblades.com/graphql" API. The application allows users to filter and select countries from the list.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Display a list of countries with details such as name, native name, capital, emoji, and currency.
+- Filter countries by name.
+- Click on a country to view additional information.
 
-### `yarn start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React: A JavaScript library for building user interfaces.
+- Apollo Client: A GraphQL client for managing application data.
+- Tailwind CSS: A utility-first CSS framework for styling.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Code Structure
 
-### `yarn test`
+- `src/App.js`: The main application component that sets up Apollo Client and renders the `CountryList` component.
+- `src/Components/CountryList.js`: The component responsible for fetching and displaying the list of countries.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Dependencies
 
-### `yarn build`
+- `@apollo/client`: The Apollo Client library for GraphQL.
+- `tw-elements-react`: A library for UI elements with Tailwind CSS styling.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Ülke Listesi Uygulaması
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bu, GraphQL kullanarak "https://countries.trevorblades.com/graphql" API'sinden veri çekerek ülkelerin bir listesini gösteren basit bir React web uygulamasıdır. Uygulama, kullanıcıların listeden ülkeleri filtrelemesine ve seçmesine olanak tanır.
 
-### `yarn eject`
+## Özellikler
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Ad, yerel ad, başkent, emoji ve para birimi gibi detaylarla ülkelerin listesini gösterme.
+- Ülkeleri ada göre filtreleme.
+- Bir ülkeye tıklamak için ülke kartına tıklayın ve daha fazla bilgi görüntüleyin.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Kullanılan Teknolojiler
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React: Kullanıcı arayüzleri oluşturmak için kullanılan bir JavaScript kütüphanesi.
+- Apollo Client: Uygulama verilerini yönetmek için kullanılan bir GraphQL istemcisi.
+- Tailwind CSS: Stil vermek için kullanılan bir CSS çerçevesi.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Kod Yapısı
 
-## Learn More
+- `src/App.js`: Apollo Client'ı yapılandıran ve `CountryList` bileşenini renderlayan ana uygulama bileşeni.
+- `src/Components/CountryList.js`: Ülkelerin listesini çeken ve gösteren bileşen.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Bağımlılıklar
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- `@apollo/client`: GraphQL için Apollo Client kütüphanesi.
+- `tw-elements-react`: Tailwind CSS stili ile UI elementleri sağlayan bir kütüphane.
